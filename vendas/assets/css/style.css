@@ -7,13 +7,21 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+body {
+    color: #050000;
+}
+
+.dourado {
+    color: #CBA731;
+}
+
 .header {
     background-color: black;
     padding: 0.4rem 0;
 }
 
 .banner {
-    background: url('https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/bodygold/img/fundo_1secao_DESKTOP.webp');
+    background: url("https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/bodygold/img/fundo_1secao_DESKTOP.webp");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -24,18 +32,50 @@
     font-family: "Roboto";
 }
 
-.fa-check:hover,
-li:hover {
+.titulo-body {
+    font-size: 2.2em;
+}
+
+.check-hover:hover {
     color: #871108;
 }
 
 .fonte-botao {
     text-shadow: 0px 3px 6px #00000040;
     color: white;
-    background-color: #66CD74;
+    background-color: #66cd74;
     border-radius: 4px;
+    box-shadow: 0px 3px 6px #888888;
+    border: none;
+    font-size: 24px;
+}
+
+.titulo-secoes {
+    font-size: 28px;
 }
 
 .anvisa {
     background-color: black;
+    color: white;
+}
+
+.beneficios {
+    background: url("https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/bodygold/img/fundo_3-10secao_DESKTOP.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 5rem 0;
+}
+
+.textos-beneficios {
+    color: #871108;
+    font-size: 16px;
+}
+
+.a-body-gold {
+    background: url("https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/bodygold/img/fundo_4secao_DESKTOP.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 5rem 0;
 }

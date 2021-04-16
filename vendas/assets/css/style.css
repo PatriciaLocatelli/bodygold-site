@@ -20,12 +20,15 @@ body {
     padding: 0.4rem 0;
 }
 
-.banner {
-    background: url("https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/bodygold/img/fundo_1secao_DESKTOP.webp");
+.background {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     padding: 5rem 0;
+}
+
+.banner {
+    background: url("https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/bodygold/img/fundo_1secao_DESKTOP.webp");
 }
 
 .roboto-family {
@@ -61,10 +64,6 @@ body {
 
 .beneficios {
     background: url("https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/bodygold/img/fundo_3-10secao_DESKTOP.webp");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    padding: 5rem 0;
 }
 
 .textos-beneficios {
@@ -74,8 +73,12 @@ body {
 
 .a-body-gold {
     background: url("https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/bodygold/img/fundo_4secao_DESKTOP.webp");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    padding: 5rem 0;
+}
+
+.resultados {
+    background: url("https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/bodygold/img/fundo_5-7-9-11secao_DESKTOP.webp");
+}
+
+.formula-exclusiva {
+    background: url("https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/bodygold/img/fundo_6secao_DESKTOP.webp");
 }

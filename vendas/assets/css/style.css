@@ -1,4 +1,41 @@
+/* FONT ROBOTO */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&amp;display=swap");
+* {
+    font-family: "Roboto", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
 .header {
     background-color: black;
     padding: 0.4rem 0;
+}
+
+.banner {
+    background: url('https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/bodygold/img/fundo_1secao_DESKTOP.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 5rem 0;
+}
+
+.roboto-family {
+    font-family: "Roboto";
+}
+
+.fa-check:hover,
+li:hover {
+    color: #871108;
+}
+
+.fonte-botao {
+    text-shadow: 0px 3px 6px #00000040;
+    color: white;
+    background-color: #66CD74;
+    border-radius: 4px;
+}
+
+.anvisa {
+    background-color: black;
 }

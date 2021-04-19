@@ -324,15 +324,20 @@ body {
     padding-top: 0;
 }
 
-.card {
+.card-modificado {
     background-color: transparent;
     border: 2px solid #d60a05;
     border-radius: 15px 15px 15px 15px;
+    margin-top: 15px;
 }
 
-.card-header {
+.card-header-modificado {
     background-color: transparent;
     border-bottom: 0;
+}
+
+.card-body-modifcado {
+    padding: 1em 1em 3em 1em;
 }
 
 .btn {
@@ -345,24 +350,20 @@ body {
     box-shadow: none;
 }
 
-.card-body {
-    padding: 1em 1em 3em 1em;
-}
-
 .btn-header-link {
     text-align: left;
     display: block;
 }
 
 #perguntas-fq .card .card-header .btn-header-link:after {
-    content: "\f102";
+    content: "\f103";
     font-family: 'Font Awesome 5 Free';
     font-weight: 900;
     float: right;
 }
 
 #perguntas-fq .card .card-header .btn-header-link.collapsed:after {
-    content: "\f103";
+    content: "\f102";
 }
 
 

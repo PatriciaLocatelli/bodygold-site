@@ -7,6 +7,16 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+a,
+a:active,
+a:hover {
+    color: unset;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
 body {
     color: #050000;
 }
@@ -123,3 +133,285 @@ body {
     margin-left: -0.8em;
     margin-bottom: -0.8em;
 }
+
+.kits {
+    background: #f4efef 0% 0% no-repeat padding-box;
+    padding: 2rem 0 2rem;
+    color: #000000;
+}
+
+.kits h2 {
+    color: #000000;
+    font-size: clamp(20px, 3vw, 36px);
+    line-height: clamp(20px, 3vw, 36px);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.kits h2 span {
+    color: #890100;
+}
+
+.title-kits:before {
+    content: "";
+    position: absolute;
+    top: 56px;
+    left: 50%;
+    width: 30%;
+    height: 4px;
+    background: #890100;
+    transform: translateX(-50%);
+}
+
+.kits h4 {
+    margin: auto auto;
+    font-size: clamp(20px, 3vw, 22px);
+    text-transform: uppercase;
+    margin: 0;
+    font-weight: bold;
+}
+
+.bg-roxo {
+    background-color: #871108;
+}
+
+.bg-cinza {
+    background-color: #e8e8e8;
+}
+
+.percentual-desconto {
+    font-size: clamp(16px, 3vw, 20px);
+    line-height: 100%;
+    color: #ffffff;
+    font-weight: bolder;
+    margin-bottom: 3px;
+    margin-top: 6px;
+}
+
+.percentual-desconto-maior-desconto {
+    font-size: clamp(16px, 3vw, 20px);
+    line-height: 100%;
+    color: #871108;
+    font-weight: bolder;
+    margin-bottom: 3px;
+    margin-top: 6px;
+}
+
+.off {
+    line-height: 100%;
+    color: #ffffff;
+    margin: 0;
+}
+
+.off-maior-desconto {
+    line-height: 100%;
+    color: #871108;
+    margin: 0;
+}
+
+.maior-desconto {
+    color: #ffffff;
+}
+
+.o-mais-vendido {
+    color: #871108;
+}
+
+.experimente {
+    color: #000000cc;
+}
+
+.card {
+    border: none;
+}
+
+.card-cor-fundo-kits {
+    padding: 0;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    border: unset;
+}
+
+.titulo-kits {
+    color: #871108;
+    font-size: clamp(18px, 3vw, 18px);
+    line-height: clamp(18px, 3vw, 18px);
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.informacoes {
+    line-height: 18px;
+    margin-bottom: 10px;
+}
+
+.de-por {
+    font-size: 14px;
+    line-height: 14px;
+    text-decoration: line-through;
+    color: red;
+    text-transform: uppercase;
+}
+
+.por {
+    font-size: 16px;
+    line-height: 16px;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+}
+
+.por span {
+    font-weight: bold;
+}
+
+.por-apenas-kits {
+    font-size: 16px;
+    line-height: clamp(31px, 4vw, 34px);
+    text-transform: uppercase;
+}
+
+.por-apenas-kits span {
+    font-weight: bold;
+}
+
+.valor-kits {
+    color: #871108;
+    font-family: "Roboto", Sans-serif;
+    font-size: clamp(32px, 4vw, 42px);
+    line-height: clamp(20px, 4vw, 32px);
+    font-weight: bolder;
+}
+
+.blinking {
+    animation: opacity 1.5s ease-in-out infinite;
+    opacity: 1;
+}
+
+.contem {
+    font-weight: bold;
+}
+
+.botao-kit {
+    border-radius: 5px;
+    /* box-shadow: 0px 10px 19px 1px rgb(0 0 0 / 30%); */
+    max-width: 80%;
+    color: #ffffff;
+    height: 50px;
+    margin: 0 auto;
+    background-color: #871108;
+    border: 2px solid #871108;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+@keyframes opacity {
+    0% {
+        opacity: 1;
+    }
+    /* 50% {
+        opacity: 0.5;
+      } */
+    100% {
+        opacity: 0;
+    }
+}
+
+.perguntas-frequentes {
+    background: url('https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/bodygold/img/fundo_rodape_DESKTOP.webp');
+    margin-bottom: 0;
+    padding-top: 0;
+}
+
+.card {
+    background-color: transparent;
+    border: 2px solid #d60a05;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.card-header {
+    background-color: transparent;
+    border-bottom: 0;
+}
+
+.btn {
+    font-weight: bold !important;
+    padding: 0;
+}
+
+.btn.focus,
+.btn:focus {
+    box-shadow: none;
+}
+
+.card-body {
+    padding: 1em 1em 3em 1em;
+}
+
+.btn-header-link {
+    text-align: left;
+    display: block;
+}
+
+#perguntas-fq .card .card-header .btn-header-link:after {
+    content: "\f102";
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    float: right;
+}
+
+#perguntas-fq .card .card-header .btn-header-link.collapsed:after {
+    content: "\f103";
+}
+
+
+/*
+
+#main #faq .card {
+    margin-bottom: 30px;
+    border: 0;
+}
+
+#perguntas-fq .card .card-header {
+    border: 0;
+    -webkit-box-shadow: 0 0 20px 0 rgba(213, 213, 213, 0.5);
+    box-shadow: 0 0 20px 0 rgba(213, 213, 213, 0.5);
+    border-radius: 2px;
+    padding: 0;
+}
+
+#perguntas-fq .card .card-header .btn-header-link {
+    color: #fff;
+    display: block;
+    text-align: left;
+    background: transparent;
+    color: #222;
+    padding: 20px;
+}
+
+#perguntas-fq .card .card-header .btn-header-link:after {
+    content: "\f102";
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    float: right;
+}
+
+#perguntas-fq .card .card-header .btn-header-link.collapsed:after {
+    content: "\f103";
+}
+
+#perguntas-fq .card .collapsing {
+    line-height: 30px;
+}
+
+#perguntas-fq .card .collapse {
+    border: 0;
+}
+
+#perguntas-fq .card .collapse.show {
+    background-color: transparent;
+    line-height: 30px;
+    color: #222;
+}
+*/

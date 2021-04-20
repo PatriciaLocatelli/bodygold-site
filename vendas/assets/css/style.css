@@ -7,6 +7,9 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+
+/* LINKS */
+
 a,
 a:active,
 a:hover {
@@ -17,22 +20,30 @@ a:hover {
     text-decoration: none;
 }
 
+
+/* CORES */
+
 body {
     color: #050000;
 }
 
 .dourado {
-    color: #CBA731;
+    color: #cba731;
 }
 
 .vermelho {
     color: #871108;
 }
 
-.header {
-    background-color: black;
-    padding: 0.4rem 0;
+
+/* FONTE PADRÃO SITE */
+
+.roboto-family {
+    font-family: "Roboto";
 }
+
+
+/* BACKGROUNDS COM IMAGENS */
 
 .background {
     background-repeat: no-repeat;
@@ -45,16 +56,48 @@ body {
     background: url("https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/bodygold/img/fundo_1secao_DESKTOP.webp");
 }
 
-.roboto-family {
-    font-family: "Roboto";
+.beneficios {
+    background: url("https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/bodygold/img/fundo_3-10secao_DESKTOP.webp");
 }
+
+.a-body-gold {
+    background: url("https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/bodygold/img/fundo_4secao_DESKTOP.webp");
+}
+
+.resultados {
+    background: url("https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/bodygold/img/fundo_5-7-9-11secao_DESKTOP.webp");
+}
+
+.formula-exclusiva {
+    background: url("https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/bodygold/img/fundo_6secao_DESKTOP.webp");
+}
+
+.diferencial {
+    background: url("https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/bodygold/img/fundo_8secao_DESKTOP.webp");
+}
+
+
+/* BACKGROUND CORES */
+
+.header {
+    background-color: black;
+    padding: 0.4rem 0;
+}
+
+.anvisa {
+    background-color: black;
+    color: white;
+}
+
+.background-vermelho {
+    background-color: #890100;
+}
+
+
+/* TAMANHO FONTES */
 
 .titulo-body {
     font-size: 2.2em;
-}
-
-.check-hover:hover {
-    color: #871108;
 }
 
 .fonte-botao {
@@ -75,34 +118,9 @@ body {
     font-size: 15px;
 }
 
-.anvisa {
-    background-color: black;
-    color: white;
-}
-
-.beneficios {
-    background: url("https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/bodygold/img/fundo_3-10secao_DESKTOP.webp");
-}
-
 .textos-beneficios {
     color: #871108;
     font-size: 15px;
-}
-
-.a-body-gold {
-    background: url("https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/bodygold/img/fundo_4secao_DESKTOP.webp");
-}
-
-.resultados {
-    background: url("https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/bodygold/img/fundo_5-7-9-11secao_DESKTOP.webp");
-}
-
-.formula-exclusiva {
-    background: url("https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/bodygold/img/fundo_6secao_DESKTOP.webp");
-}
-
-.diferencial {
-    background: url("https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/bodygold/img/fundo_8secao_DESKTOP.webp");
 }
 
 .textos-formula-exclusiva {
@@ -114,6 +132,48 @@ body {
     font-size: 15px;
 }
 
+.textos-rodape {
+    color: #7a7a7a;
+    font-family: "Roboto", Sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 1.5em;
+}
+
+.titulos-rodape {
+    color: #ffffff;
+    font-family: "Roboto", Sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.contato {
+    font-size: 16px;
+    color: white;
+}
+
+.copyright {
+    color: white;
+    font-size: 12px;
+}
+
+
+/* ICONS */
+
+.check-hover:hover {
+    color: #871108;
+}
+
+
+/* BORDA CUSTOMIZADA */
+
+.borda-branca {
+    border-right: 4px solid white !important;
+}
+
+
+/* BALÃOZINHO FAMA DO BODY GOLD */
+
 .speech-bubble {
     position: relative;
     background: #efeaea;
@@ -121,7 +181,7 @@ body {
 }
 
 .speech-bubble:after {
-    content: '';
+    content: "";
     position: absolute;
     bottom: 0;
     left: 50%;
@@ -133,6 +193,9 @@ body {
     margin-left: -0.8em;
     margin-bottom: -0.8em;
 }
+
+
+/* KITS */
 
 .kits {
     background: #f4efef 0% 0% no-repeat padding-box;
@@ -318,8 +381,11 @@ body {
     }
 }
 
+
+/* PERGUNTAS FREQUENTES */
+
 .perguntas-frequentes {
-    background: url('https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/bodygold/img/fundo_rodape_DESKTOP.webp');
+    background: url("https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/bodygold/img/fundo_rodape_DESKTOP.webp");
     margin-bottom: 0;
     padding-bottom: 0;
 }
@@ -358,7 +424,7 @@ body {
 
 .btn-header-link:after {
     content: "\f103";
-    font-family: 'Font Awesome 5 Free';
+    font-family: "Font Awesome 5 Free";
     font-weight: 900;
     float: right;
 }
@@ -367,35 +433,142 @@ body {
     content: "\f102";
 }
 
-.background-vermelho {
-    background-color: #890100;
+
+/* MOBILE */
+
+@media (min-width: 360px) and (max-width: 767px) {
+    /* BACKGROUNDS */
+    .background {
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+        padding: 3em 0;
+    }
+    .banner {
+        background: url("https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/bodygold/img/mobile/fundo_1secao_MOBILE.webp");
+    }
+    .beneficios {
+        background: url("https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/bodygold/img/mobile/fundo_3-10secao_MOBILE.webp");
+    }
+    .a-body-gold {
+        background: url("https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/bodygold/img/mobile/fundo_4secao_MOBILE.webp");
+    }
+    .resultados {
+        background: url("https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/bodygold/img/mobile/fundo_5-7-9-11secao_MOBILE.webp");
+    }
+    .formula-exclusiva {
+        background: url("https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/bodygold/img/mobile/fundo_6secao_MOBILE.webp");
+    }
+    .diferencial {
+        background: url('https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/bodygold/img/mobile/fundo_8secao_MOBILE.webp');
+    }
+    /* FONTES */
+    .titulo-body {
+        font-size: 1.2em;
+    }
+    li {
+        font-weight: bold;
+        font-size: 14px;
+    }
+    .titulo-secoes {
+        font-size: 24px;
+    }
+    .a-body-gold li {
+        font-weight: normal;
+    }
+    /* POSIÇÕES DOS ELEMENTOS */
+    body>section.anvisa>div>div>div.col-md-7.text-center.mg-0 {
+        padding: 20px 60px 0px 60px;
+    }
+    body>section.anvisa>div>div>div.col-md-2.mg-0 {
+        text-align: center;
+    }
+    .beneficios .col-md-2 {
+        padding-left: 5em;
+        padding-right: 5em;
+    }
+    .a-body-gold .col-md-5 {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+    .formula-exclusiva .col-md-3 {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+    .diferencial .col-md-5,
+    .diferencial .col-md-3 {
+        text-align: center !important;
+    }
+    .diferencial .col-md-5 {
+        padding-right: 4em;
+        padding-left: 4em;
+    }
+    .diferencial .col-md-9 {
+        padding-right: 2em;
+        padding-left: 2em;
+    }
+    /* CARROSSEL RESULTADOS */
+    .swiper-container {
+        width: 100%;
+        height: 350px;
+    }
+    .swiper-container .swiper-slide {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 60px;
+    }
+    .solucao-efetiva .col-md-5 .row,
+    .solucao-efetiva .col-md-3 {
+        text-align: center !important;
+    }
+    .solucao-efetiva .col-md-5,
+    .solucao-efetiva .col-md-9 {
+        padding-left: 1.5em;
+        padding-right: 1.5em;
+    }
+    /* DESATIVA O QUE TÁ NO DESKTOP E TABLET*/
+    .desktop,
+    .tablet {
+        display: none;
+    }
 }
 
-.borda-branca {
-    border-right: 4px solid white !important;
+
+/* TABLET*/
+
+@media (min-width: 768px) and (max-width: 1279px) {
+    /* BACKGROUNDS */
+    .background {
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+        padding: 3em 0;
+    }
+    /* FONTES */
+    .titulo-body {
+        font-size: 1.43em;
+    }
+    .fonte-botao {
+        font-size: 20px;
+    }
+    li {
+        font-size: 14px;
+    }
+    /* POSIÇÃO DOS ELEMENTOS */
+    .beneficios .col-md-2 {
+        padding: 0;
+    }
+    /* DESATIVA O QUE TÁ NO DESKTOP E MOBILE */
+    .mobile,
+    .resultados .desktop,
+    body>section.solucao-efetiva.background.resultados>div>div.row.justify-content-center.pt-4>div.col-md-5 {
+        display: none;
+    }
 }
 
-.textos-rodape {
-    color: #7a7a7a;
-    font-family: "Roboto", Sans-serif;
-    font-size: 10px;
-    font-weight: 400;
-    line-height: 1.5em;
-}
-
-.titulos-rodape {
-    color: #FFFFFF;
-    font-family: "Roboto", Sans-serif;
-    font-size: 16px;
-    font-weight: 500;
-}
-
-.contato {
-    font-size: 16px;
-    color: white;
-}
-
-.copyright {
-    color: white;
-    font-size: 12px;
+@media (min-width: 1280px) {
+    /* DESATIVA NO DESKTOP */
+    .mobile,
+    .tablet {
+        display: none;
+    }
 }

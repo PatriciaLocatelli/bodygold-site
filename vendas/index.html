@@ -1,21 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-
-    <!-- Bootstrap CSS -->
-    <!-- FONTAWESOME -->
     <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
     <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="assets/js/script.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
     <title>Body Gold - Vendas</title>
 </head>
 
 <body>
+    <!-- HEADER -->
     <section class="header">
         <div class="container">
             <div class="row text-center">
@@ -25,6 +26,8 @@
             </div>
         </div>
     </section>
+
+    <!-- BANNER -->
     <section class="banner background">
         <div class="container">
             <div class="row justify-content-center">
@@ -53,20 +56,27 @@
                             <i class="fas fa-check check-hover pr-1"></i> Mais hidratação e nutrição
                         </li>
                     </ul>
-                    <button type="button" class="btn btn-success fonte-botao pl-4 pr-4 pb-2 pt-2">
+                    <button type="button" class="btn btn-success fonte-botao desktop pl-4 pr-4 pb-2 pt-2">
               EXPERIMENTAR AGORA!
             </button>
                 </div>
                 <div class="col-md-5 text-center">
-                    <img class="img-fluid" width="280" src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/bodygold/img/potes_topo.webp" />
+                    <img class="img-fluid desktop tablet" width="280" src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/bodygold/img/potes_topo.webp" />
+                    <!-- SOMENTE MOBILE -->
+                    <img class="img-fluid mobile" width="250" src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/bodygold/img/potes_topo.webp" />
+                    <button type="button" class="btn btn-success fonte-botao mobile pl-4 pr-4 pb-2 pt-2 mt-3">
+              EXPERIMENTAR AGORA!
+            </button>
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- ANVISA -->
     <section class="anvisa">
         <div class="container">
             <div class="row pt-3 pb-3 justify-content-center">
-                <div class="col-md-7 text-center">
+                <div class="col-md-7 text-center mg-0">
                     <h6 class="roboto-family">
                         RECOMENDADO POR DERMATOLOGISTAS E APROVADO PELA
                         <mark style="background-color: #cba731">ANVISA</mark>
@@ -75,12 +85,14 @@
                         O Body Gold é um produto completamente seguro e licenciado, possui o selo de aprovação da ANVISA e está sob o número de registro 25351.022757/2018-63, comprovando toda a sua efetividade e segurança.
                     </p>
                 </div>
-                <div class="col-md-2">
+                <div class="col-md-2 mg-0">
                     <img class="img-fluid" width="80" src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/bodygold/img/logo-anvisa.webp" />
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- BENEFÍCIOS -->
     <section class="beneficios background">
         <div class="container">
             <div class="row pt-1">
@@ -131,6 +143,8 @@
             </div>
         </div>
     </section>
+
+    <!-- A BODY GOLD -->
     <section class="a-body-gold background">
         <div class="container">
             <div class="row pt-1">
@@ -176,6 +190,8 @@
             </div>
         </div>
     </section>
+
+    <!-- RESULTADOS -->
     <section class="resultados background">
         <div class="container">
             <div class="row pt-1">
@@ -185,7 +201,7 @@
                     </h1>
                 </div>
             </div>
-            <div class="row justify-content-center pt-5 pb-5">
+            <div class="row justify-content-center pt-5 pb-5 desktop">
                 <div class="col-md-3">
                     <img class="img-fluid" src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/bodygold/img/antesedepois_01_2.webp" />
                 </div>
@@ -193,6 +209,85 @@
                     <img class="img-fluid" src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/bodygold/img/antesedepois_02.webp" />
                 </div>
                 <div class="col-md-3">
+                    <img class="img-fluid" src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/bodygold/img/antesedepois_03.webp" />
+                </div>
+            </div>
+            <div class="row justify-content-center mobile">
+                <div class="col-md-10">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img class="img-fluid" src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/bodygold/img/antesedepois_01_2.webp" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="img-fluid" src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/bodygold/img/antesedepois_02.webp" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="img-fluid" src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/bodygold/img/antesedepois_03.webp" />
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                    <script>
+                        const swiper = new Swiper(".swiper-container", {
+                            // Optional parameters
+                            // direction: "vertical",
+                            loop: true,
+
+                            autoplay: {
+                                delay: 5000,
+                            },
+
+                            // If we need pagination
+                            pagination: {
+                                el: ".swiper-pagination",
+                                clickable: true,
+                                // renderBullet: function (index, className) {
+                                //   return '<span class="' + className + '">' + (index + 1) + "</span>";
+                                // },
+                            },
+
+                            // slidesPerView: 3,
+                            // slidesPerGroup: 3,
+                            // loopFillGroupWithBlank: true,
+
+                            // Navigation arrows
+                            navigation: {
+                                nextEl: ".swiper-button-next",
+                                prevEl: ".swiper-button-prev",
+                            },
+
+                            // And if we need scrollbar
+                            scrollbar: {
+                                el: ".swiper-scrollbar",
+                            },
+
+                            // breakpoints: {
+                            //   640: {
+                            //     slidesPerView: 2,
+                            //     spaceBetween: 20,
+                            //   },
+                            //   768: {
+                            //     slidesPerView: 4,
+                            //     spaceBetween: 40,
+                            //   },
+                            //   1024: {
+                            //     slidesPerView: 5,
+                            //     spaceBetween: 50,
+                            //   },
+                            // },
+                        });
+                    </script>
+                </div>
+            </div>
+            <div class="row justify-content-center pt-5 pb-5 tablet">
+                <div class="col-md-4">
+                    <img class="img-fluid" src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/bodygold/img/antesedepois_01_2.webp" />
+                </div>
+                <div class="col-md-4">
+                    <img class="img-fluid" src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/bodygold/img/antesedepois_02.webp" />
+                </div>
+                <div class="col-md-4">
                     <img class="img-fluid" src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/bodygold/img/antesedepois_03.webp" />
                 </div>
             </div>
@@ -205,6 +300,8 @@
             </div>
         </div>
     </section>
+
+    <!-- FORMULA EXCLUSIVA -->
     <section class="formula-exclusiva background">
         <div class="container">
             <div class="row pt-1">
@@ -254,15 +351,17 @@
             </div>
         </div>
     </section>
+
+    <!-- SOLUÇÃO EFETIVA -->
     <section class="solucao-efetiva background resultados">
         <div class="container">
-            <div class="row pt-1">
-                <div class="col-md-12 text-center">
+            <div class="row pt-1 justify-content-center">
+                <div class="col-md-9 text-center">
                     <h1 class="roboto-family font-weight-bold titulo-secoes">
-                        FÓRMULA<span class="dourado"> EXCLUSIVA</span>
+                        <span class="dourado">SOLUÇÃO EFETIVA</span> CONTRA RESSECAMENTOS NA PELE
                     </h1>
                     <p class="subtitulo-secoes">
-                        O Body Gold possui uma fórmula única e rica em ativos naturais.
+                        O Body Gold é o creme corporal mais completo de sua categoria, pois é o único que contém todas as vitaminas necessárias para proporcionar múltiplos benefícios.
                     </p>
                 </div>
             </div>
@@ -322,7 +421,62 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <!--SOMENTE TABLET-->
+                <div class="col-md-9 tablet">
+                    <div class="row">
+                        <div class="col-md-3 text-right">
+                            <img class="img-fluid" width="90" src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/bodygold/img/icone_solucao_01.webp" />
+                        </div>
+                        <div class="col-md-9">
+                            <p class="textos-beneficios font-weight-bold pt-1 mb-0">
+                                Hidratação intensa
+                            </p>
+                            <p class="textos-formula-exclusiva vermelho">
+                                Fórmula exclusiva que hidrata todas as camadas da pele, incluindo as mais profundas.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row pt-3">
+                        <div class="col-md-3 text-right">
+                            <img class="img-fluid" width="90" src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/bodygold/img/icone_solucao_02.webp" />
+                        </div>
+                        <div class="col-md-8">
+                            <p class="textos-beneficios font-weight-bold pt-1 mb-0">
+                                Iluminação para o corpo
+                            </p>
+                            <p class="textos-formula-exclusiva vermelho">
+                                Além de proporcionar nutrição e hidratação extrema, possui uma ação iluminadora que deixa a pele com um toque aveludado e iluminado.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row pt-3">
+                        <div class="col-md-3 text-right">
+                            <img class="img-fluid" width="90" src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/bodygold/img/icone_solucao_03.webp" />
+                        </div>
+                        <div class="col-md-9">
+                            <p class="textos-beneficios font-weight-bold pt-1 mb-0">
+                                Ação rejuvenescedora
+                            </p>
+                            <p class="textos-formula-exclusiva vermelho">
+                                Possui em sua fórmula uma combinação exclusiva de ativos, que estimula a produção de colágeno e deixa sua pele mais firme.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row pt-3">
+                        <div class="col-md-3 text-right">
+                            <img class="img-fluid" width="90" src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/bodygold/img/icone_solucao_04.webp" />
+                        </div>
+                        <div class="col-md-9">
+                            <p class="textos-beneficios font-weight-bold pt-1 mb-0">
+                                Ação cicatrizante
+                            </p>
+                            <p class="textos-formula-exclusiva vermelho">
+                                As propriedades benéficas do Body Gold estimulam o combate aos radicais livres e a cicatrização, evitando ressecamentos.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 desktop">
                     <img class="img-fluid" src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/bodygold/img/foto-solucao_efetiva.webp" />
                 </div>
             </div>
@@ -335,6 +489,8 @@
             </div>
         </div>
     </section>
+
+    <!-- DIFERENCIAL -->
     <section class="diferencial background">
         <div class="container" style="color: white">
             <div class="row pt-1 justify-content-center">
@@ -351,7 +507,7 @@
             <div class="row justify-content-center pt-4 pb-5">
                 <div class="col-md-5">
                     <div class="row justify-content-center">
-                        <div class="col-md-3 text-right">
+                        <div class="col-md-3 text-right align-self-center">
                             <img class="img-fluid" width="80" src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/bodygold/img/vitamina_A.webp" />
                         </div>
                         <div class="col-md-8 pl-0">
@@ -364,7 +520,7 @@
                         </div>
                     </div>
                     <div class="row justify-content-center pt-3">
-                        <div class="col-md-3 text-right">
+                        <div class="col-md-3 text-right align-self-center">
                             <img class="img-fluid" width="80" src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/bodygold/img/vitamina_C.webp" />
                         </div>
                         <div class="col-md-8 pl-0">
@@ -379,7 +535,7 @@
                 </div>
                 <div class="col-md-5">
                     <div class="row justify-content-center">
-                        <div class="col-md-3 text-right">
+                        <div class="col-md-3 text-right align-self-center">
                             <img class="img-fluid" width="80" src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/bodygold/img/vitamina_D.webp" />
                         </div>
                         <div class="col-md-8 pl-0">
@@ -392,7 +548,7 @@
                         </div>
                     </div>
                     <div class="row justify-content-center pt-3">
-                        <div class="col-md-3 text-right">
+                        <div class="col-md-3 text-right align-self-center">
                             <img class="img-fluid" width="80" src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/bodygold/img/vitamina_E.webp" />
                         </div>
                         <div class="col-md-8 pl-0">
@@ -415,6 +571,8 @@
             </div>
         </div>
     </section>
+
+    <!-- A FAMA DA BODYGOLD -->
     <section class="fama-bodygold background resultados">
         <div class="container">
             <div class="row pt-1">
@@ -424,7 +582,7 @@
                     </h1>
                 </div>
             </div>
-            <div class="row justify-content-center vermelho text-center pt-4 pb-5">
+            <div class="row justify-content-center vermelho text-center pt-4 pb-5 desktop">
                 <div class="col-md-3 mr-4 border border-1 p-4" style="background-color: white">
                     <div class="speech-bubble pl-2 pr-2 pt-3 pb-5">
                         “O novo queridinho das blogueiras não serve apenas para hidratar o corpo, como também previne rachaduras e fornece uma fragrância irresistível!”
@@ -444,6 +602,93 @@
                     <img class="img-fluid pt-4" width="90" src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/bodygold/img/midia_03.webp" />
                 </div>
             </div>
+            <!-- SOMENTE MOBILE -->
+            <div class="row justify-content-center vermelho text-center mobile">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="col-md-3 mr-4 ml-4 border border-1 p-4 mb-4" style="background-color: white">
+                                <div class="speech-bubble pl-2 pr-2 pt-3 pb-5">
+                                    “O novo queridinho das blogueiras não serve apenas para hidratar o corpo, como também previne rachaduras e fornece uma fragrância irresistível!”
+                                </div>
+                                <img class="img-fluid pt-4" width="90" src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/bodygold/img/midia_01.webp" />
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="col-md-3 mr-4 ml-4 border border-1 p-4 mb-5" style="background-color: white">
+                                <div class="speech-bubble pl-2 pr-2 pt-3 pb-5">
+                                    “O Body Gold é um dos poucos hidratantes que podem ajudar no ressecamento e descamamento que a diabete causa na pele, conheça sobre o novo hidratante dos clínicos!”
+                                </div>
+                                <img class="img-fluid pt-4" width="90" src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/bodygold/img/midia_02.webp" />
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="col-md-3 border border-1 p-4 mr-4 ml-4 mb-4" style="background-color: white">
+                                <div class="speech-bubble pl-2 pr-2 pt-3 pb-5">
+                                    “Com diversos benefícios, hidratante corporal vendido pela internet chega ao mercado prometendo ajudar a saúde e aparência da pele de muitas mulheres.”
+                                </div>
+                                <img class="img-fluid pt-4" width="90" src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/bodygold/img/midia_03.webp" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination pt-6"></div>
+                </div>
+
+            </div>
+            <!-- SOMENTE TABLET -->
+            <div class="row justify-content-center vermelho text-center tablet">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide justify-content-center">
+                            <div class="col-md-6 border border-1 p-4 mb-4" style="background-color: white">
+                                <div class="speech-bubble pl-2 pr-2 pt-3 pb-5">
+                                    “O novo queridinho das blogueiras não serve apenas para hidratar o corpo, como também previne rachaduras e fornece uma fragrância irresistível!”
+                                </div>
+                                <img class="img-fluid pt-4" width="90" src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/bodygold/img/midia_01.webp" />
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="col-md-6 border border-1 p-4 mb-5" style="background-color: white">
+                                <div class="speech-bubble pl-2 pr-2 pt-3 pb-5">
+                                    “O Body Gold é um dos poucos hidratantes que podem ajudar no ressecamento e descamamento que a diabete causa na pele, conheça sobre o novo hidratante dos clínicos!”
+                                </div>
+                                <img class="img-fluid pt-4" width="90" src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/bodygold/img/midia_02.webp" />
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="col-md-6 border border-1 p-4 mr-4 ml-4 mb-4" style="background-color: white">
+                                <div class="speech-bubble pl-2 pr-2 pt-3 pb-5">
+                                    “Com diversos benefícios, hidratante corporal vendido pela internet chega ao mercado prometendo ajudar a saúde e aparência da pele de muitas mulheres.”
+                                </div>
+                                <img class="img-fluid pt-4" width="90" src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/bodygold/img/midia_03.webp" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination pt-6"></div>
+                </div>
+
+            </div>
+            <script>
+                const swiper2 = new Swiper(".swiper-container", {
+                    loop: true,
+
+                    autoplay: {
+                        delay: 5000,
+                    },
+                    pagination: {
+                        el: ".swiper-pagination",
+                        clickable: true,
+                    },
+                    navigation: {
+                        nextEl: ".swiper-button-next",
+                        prevEl: ".swiper-button-prev",
+                    },
+                    scrollbar: {
+                        el: ".swiper-scrollbar",
+                    },
+                });
+            </script>
+
             <div class="row pt-3">
                 <div class="col-md-12 text-center">
                     <button type="button" class="btn btn-success fonte-botao pl-4 pr-4 pb-2 pt-2">
@@ -453,12 +698,14 @@
             </div>
         </div>
     </section>
+
+    <!-- DEPOIMENTOS -->
     <section class="background beneficios">
         <div class="container">
             <div class="row pt-1">
                 <div class="col-md-12 text-center">
                     <h1 class="roboto-family font-weight-bold titulo-secoes">
-                        A<span class="dourado"> FAMA DO BODY GOLD</span> NA MÍDIA
+                        CONFIRA<span class="dourado"> DEPOIMENTOS</span> DE QUEM USA O BODY GOLD!
                     </h1>
                 </div>
             </div>
@@ -482,6 +729,8 @@
             </div>
         </div>
     </section>
+
+    <!-- KITS -->
     <section class="kits background resultados">
         <div class="container">
             <div class="row pt-1">
@@ -708,6 +957,8 @@
             </div>
         </div>
     </section>
+
+    <!-- PERGUNTAS FREQUENTES -->
     <section class="perguntas-frequentes background">
         <div class="container">
             <div class="row">
@@ -838,6 +1089,8 @@
             </div>
         </div>
     </section>
+
+    <!-- FOOTER 1, 2, 3 e 4 -->
     <section class="footer1 background-vermelho">
         <div class="container">
             <div class="row justify-content-center text-center" style="color: white; font-size: 14px">
@@ -931,92 +1184,78 @@
           </div>
           <div class="col-md-2 align-self-center">
             <img
-            class="img-fluid"
-            src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/bodygold/img/selo-ssh-1.jpg"
-          />
+              class="img-fluid"
+              src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/bodygold/img/selo-ssh-1.jpg"
+            />
           </div>
           <div class="col-md-2 align-self-center">
             <img
-            class="img-fluid"
-            src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/bodygold/img/compra-segura-triptoz.jpg"
-          />
+              class="img-fluid"
+              src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/bodygold/img/compra-segura-triptoz.jpg"
+            />
           </div>
           <div class="col-md-2 align-self-center">
             <img
-            class="img-fluid"
-            src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/bodygold/img/anvisa-triptoz.jpg"
-          />
+              class="img-fluid"
+              src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/bodygold/img/anvisa-triptoz.jpg"
+            />
           </div>
           <div class="col-md-2 align-self-center text-center">
-            <span class="textos-rodape"
-                  >Certificado pela anvisa</span
-                >
-          </div>
-          <div class="col-md-2 align-self-center">
-            <img
-            class="img-fluid"
-            src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/bodygold/img/selo-ggc-1.png"
-          />
-          </div>
-        </div>
-      </div>
+            <span class="textos-rodape">Certificado pela anvisa</span>
+                        </div>
+                        <div class="col-md-2 align-self-center">
+                            <img class="img-fluid" src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/bodygold/img/selo-ggc-1.png" />
+                        </div>
+                    </div>
+                </div>
     </section>
     <section class="footer4 background-vermelho pt-4 pb-4">
-      <div class="container">
-        <div class="row text-center">
-          <div class="col-md-3 ">
-            <p class="titulos-rodape">Contato</p>
-            <p class="contato">(51) 3658-4790 </p>
-            <p class="contato">contato@grupogoldclub.com</p>
-          </div>
-          <div class="col-md-3">
-              <p class="titulos-rodape">Formas de Pagamento</p>
-              <img
-            class="img-fluid" width="180"
-            src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/bodygold/img/mimimi-pagamento.png"
-          />
-          </div>
-          <div class="col-md-3">
-              <p class="titulos-rodape">Formas de Entrega</p>
-              <img
-            class="img-fluid" width="150"
-            src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/bodygold/img/correios-pac-sedex.png"
-          />
-          </div>
-          <div class="col-md-3">
-              <p class="titulos-rodape">Fale Conosco</p>
-              <img
-            class="img-fluid" width="220"
-            src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/bodygold/img/fale-conosco.png"
-          />
-          </div>
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-3">
+                    <p class="titulos-rodape">Contato</p>
+                    <p class="contato">(51) 3658-4790</p>
+                    <p class="contato">contato@grupogoldclub.com</p>
+                </div>
+                <div class="col-md-3">
+                    <p class="titulos-rodape">Formas de Pagamento</p>
+                    <img class="img-fluid" width="180" src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/bodygold/img/mimimi-pagamento.png" />
+                </div>
+                <div class="col-md-3">
+                    <p class="titulos-rodape">Formas de Entrega</p>
+                    <img class="img-fluid" width="150" src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/bodygold/img/correios-pac-sedex.png" />
+                </div>
+                <div class="col-md-3">
+                    <p class="titulos-rodape">Fale Conosco</p>
+                    <img class="img-fluid" width="220" src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/bodygold/img/fale-conosco.png" />
+                </div>
+            </div>
+            <div class="row justify-content-center pt-4">
+                <div class="col-md-9 text-center">
+                    <p class="copyright">
+                        Copyright © Body Gold. Todos os direitos reservados a Gold Club. CNPJ 26.747.518/0001-87.
+                        <a class="font-weight-bold" href="">Trocas e Devoluções</a>
+                    </p>
+                </div>
+            </div>
         </div>
-        <div class="row justify-content-center pt-4">
-          <div class="col-md-9 text-center">
-            <p class="copyright">
-                Copyright © Body Gold. Todos os direitos reservados a Gold Club. CNPJ
-                26.747.518/0001-87. <a class="font-weight-bold" href="">Trocas e Devoluções</a>
-            </p>
-          </div>
-        </div>
-      </div>
     </section>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.slim.min.js "
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN "
-      crossorigin="anonymous "
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js "
-      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q "
-      crossorigin="anonymous "
-    ></script>
-    <script
-      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js "
-      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl "
-      crossorigin="anonymous "
-    ></script>
-  </body>
+    <!-- BOTÃO WHATSAPP -->
+    <a href="https://api.whatsapp.com/send?phone=5519999999999&text=Texto%20aqui" target="_blank" style="z-index: 9999; position: fixed; bottom: 20px; right: 30px">
+        <svg enable-background="new 0 0 512 512" width="50" height="50" version="1.1" viewBox="0 0 512 512" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M256.064,0h-0.128l0,0C114.784,0,0,114.816,0,256c0,56,18.048,107.904,48.736,150.048l-31.904,95.104  l98.4-31.456C155.712,496.512,204,512,256.064,512C397.216,512,512,397.152,512,256S397.216,0,256.064,0z"
+          fill="#4CAF50"
+        />
+        <path
+          d="m405.02 361.5c-6.176 17.44-30.688 31.904-50.24 36.128-13.376 2.848-30.848 5.12-89.664-19.264-75.232-31.168-123.68-107.62-127.46-112.58-3.616-4.96-30.4-40.48-30.4-77.216s18.656-54.624 26.176-62.304c6.176-6.304 16.384-9.184 26.176-9.184 3.168 0 6.016 0.16 8.576 0.288 7.52 0.32 11.296 0.768 16.256 12.64 6.176 14.88 21.216 51.616 23.008 55.392 1.824 3.776 3.648 8.896 1.088 13.856-2.4 5.12-4.512 7.392-8.288 11.744s-7.36 7.68-11.136 12.352c-3.456 4.064-7.36 8.416-3.008 15.936 4.352 7.36 19.392 31.904 41.536 51.616 28.576 25.44 51.744 33.568 60.032 37.024 6.176 2.56 13.536 1.952 18.048-2.848 5.728-6.176 12.8-16.416 20-26.496 5.12-7.232 11.584-8.128 18.368-5.568 6.912 2.4 43.488 20.48 51.008 24.224 7.52 3.776 12.48 5.568 14.304 8.736 1.792 3.168 1.792 18.048-4.384 35.52z"
+          fill="#FAFAFA"
+        />
+      </svg>
+    </a>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js " integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN " crossorigin="anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js " integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q " crossorigin="anonymous "></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js " integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl " crossorigin="anonymous "></script>
+</body>
+
 </html>

@@ -321,7 +321,7 @@ body {
 .perguntas-frequentes {
     background: url('https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/bodygold/img/fundo_rodape_DESKTOP.webp');
     margin-bottom: 0;
-    padding-top: 0;
+    padding-bottom: 0;
 }
 
 .card-modificado {
@@ -353,66 +353,49 @@ body {
 .btn-header-link {
     text-align: left;
     display: block;
+    font-size: 14px;
 }
 
-#perguntas-fq .card .card-header .btn-header-link:after {
+.btn-header-link:after {
     content: "\f103";
     font-family: 'Font Awesome 5 Free';
     font-weight: 900;
     float: right;
 }
 
-#perguntas-fq .card .card-header .btn-header-link.collapsed:after {
+.btn-header-link.collapsed:after {
     content: "\f102";
 }
 
-
-/*
-
-#main #faq .card {
-    margin-bottom: 30px;
-    border: 0;
+.background-vermelho {
+    background-color: #890100;
 }
 
-#perguntas-fq .card .card-header {
-    border: 0;
-    -webkit-box-shadow: 0 0 20px 0 rgba(213, 213, 213, 0.5);
-    box-shadow: 0 0 20px 0 rgba(213, 213, 213, 0.5);
-    border-radius: 2px;
-    padding: 0;
+.borda-branca {
+    border-right: 4px solid white !important;
 }
 
-#perguntas-fq .card .card-header .btn-header-link {
-    color: #fff;
-    display: block;
-    text-align: left;
-    background: transparent;
-    color: #222;
-    padding: 20px;
+.textos-rodape {
+    color: #7a7a7a;
+    font-family: "Roboto", Sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 1.5em;
 }
 
-#perguntas-fq .card .card-header .btn-header-link:after {
-    content: "\f102";
-    font-family: 'Font Awesome 5 Free';
-    font-weight: 900;
-    float: right;
+.titulos-rodape {
+    color: #FFFFFF;
+    font-family: "Roboto", Sans-serif;
+    font-size: 16px;
+    font-weight: 500;
 }
 
-#perguntas-fq .card .card-header .btn-header-link.collapsed:after {
-    content: "\f103";
+.contato {
+    font-size: 16px;
+    color: white;
 }
 
-#perguntas-fq .card .collapsing {
-    line-height: 30px;
+.copyright {
+    color: white;
+    font-size: 12px;
 }
-
-#perguntas-fq .card .collapse {
-    border: 0;
-}
-
-#perguntas-fq .card .collapse.show {
-    background-color: transparent;
-    line-height: 30px;
-    color: #222;
-}
-*/

@@ -461,6 +461,9 @@ body {
     .diferencial {
         background: url('https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/bodygold/img/mobile/fundo_8secao_MOBILE.webp');
     }
+    .perguntas-frequentes {
+        background: url('https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/bodygold/img/mobile/fundo_rodape_MOBILE.webp');
+    }
     /* FONTES */
     .titulo-body {
         font-size: 1.2em;
@@ -474,6 +477,15 @@ body {
     }
     .a-body-gold li {
         font-weight: normal;
+    }
+    .titulos-rodape {
+        padding-top: 1em;
+    }
+    .btn-header-link {
+        font-size: 12px;
+    }
+    .card-body {
+        font-size: 13px;
     }
     /* POSIÇÕES DOS ELEMENTOS */
     body>section.anvisa>div>div>div.col-md-7.text-center.mg-0 {
@@ -526,10 +538,35 @@ body {
         padding-left: 1.5em;
         padding-right: 1.5em;
     }
+    .depoimentos .swiper-container {
+        height: 715px;
+    }
+    .kits .col-md-4,
+    body>section.kits.background.resultados>div>div.row.pt-1>div {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+    .perguntas-frequentes {
+        padding-bottom: 0 !important;
+    }
+    .perguntas-frequentes .col-md-6,
+    .perguntas-frequentes .col-md-5 {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+    .perguntas-frequentes .col-md-5 {
+        padding-top: 2em;
+    }
+    body>section.footer4.background-vermelho.pt-4.pb-4>div>div.row.justify-content-center.pt-4 {
+        padding-bottom: 2.3rem!important;
+    }
     /* DESATIVA O QUE TÁ NO DESKTOP E TABLET*/
     .desktop,
     .tablet {
         display: none;
+    }
+    .footer4 .col-md-3 {
+        padding-top: 1em;
     }
 }
 
@@ -553,14 +590,35 @@ body {
     li {
         font-size: 14px;
     }
+    .titulos-rodape {
+        font-size: 14px;
+    }
+    .contato {
+        font-size: 13px;
+    }
     /* POSIÇÃO DOS ELEMENTOS */
     .beneficios .col-md-2 {
         padding: 0;
     }
+    .depoimentos .swiper-container {
+        height: 880px;
+    }
+    .perguntas-frequentes .col-md-5 {
+        align-self: flex-end;
+    }
+    .perguntas-frequentes {
+        padding-bottom: 0!important;
+    }
+    .perguntas-frequentes .col-md-6 {
+        padding-bottom: 2em;
+    }
     /* DESATIVA O QUE TÁ NO DESKTOP E MOBILE */
     .mobile,
     .resultados .desktop,
-    body>section.solucao-efetiva.background.resultados>div>div.row.justify-content-center.pt-4>div.col-md-5 {
+    body>section.solucao-efetiva.background.resultados>div>div.row.justify-content-center.pt-4>div.col-md-5,
+    .depoimentos .desktop,
+    body>section.kits.background.resultados>div>div:nth-child(2),
+    .footer2 .desktop {
         display: none;
     }
 }

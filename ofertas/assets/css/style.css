@@ -52,28 +52,12 @@ body {
     padding: 5rem 0;
 }
 
-.banner {
-    background: url("https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/bodygold/img/fundo_1secao_DESKTOP.webp");
-}
-
 .beneficios {
     background: url("https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/bodygold/img/fundo_3-10secao_DESKTOP.webp");
 }
 
-.a-body-gold {
-    background: url("https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/bodygold/img/fundo_4secao_DESKTOP.webp");
-}
-
 .resultados {
     background: url("https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/bodygold/img/fundo_5-7-9-11secao_DESKTOP.webp");
-}
-
-.formula-exclusiva {
-    background: url("https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/bodygold/img/fundo_6secao_DESKTOP.webp");
-}
-
-.diferencial {
-    background: url("https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/bodygold/img/fundo_8secao_DESKTOP.webp");
 }
 
 
@@ -84,21 +68,20 @@ body {
     padding: 0.4rem 0;
 }
 
-.anvisa {
-    background-color: black;
-    color: white;
-}
-
 .background-vermelho {
     background-color: #890100;
 }
 
+.background-dourado {
+    background-color: #cba731;
+}
+
+.background-cinza {
+    background-color: #F5F5F5;
+}
+
 
 /* TAMANHO FONTES */
-
-.titulo-body {
-    font-size: 2.2em;
-}
 
 .fonte-botao {
     text-shadow: 0px 3px 6px #00000040;
@@ -108,6 +91,10 @@ body {
     box-shadow: 0px 3px 6px #888888;
     border: none;
     font-size: 24px;
+}
+
+.disponiveis-titulo {
+    margin-bottom: 0;
 }
 
 .titulo-secoes {
@@ -120,15 +107,6 @@ body {
 
 .textos-beneficios {
     color: #871108;
-    font-size: 15px;
-}
-
-.textos-formula-exclusiva {
-    font-size: 12px;
-    padding-top: 0;
-}
-
-.textos-diferencial {
     font-size: 15px;
 }
 
@@ -158,40 +136,10 @@ body {
 }
 
 
-/* ICONS */
-
-.check-hover:hover {
-    color: #871108;
-}
-
-
 /* BORDA CUSTOMIZADA */
 
 .borda-branca {
     border-right: 4px solid white !important;
-}
-
-
-/* BALÃOZINHO FAMA DO BODY GOLD */
-
-.speech-bubble {
-    position: relative;
-    background: #efeaea;
-    font-size: 14px;
-}
-
-.speech-bubble:after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    width: 0;
-    height: 0;
-    border: 0.8em solid transparent;
-    border-top-color: #efeaea;
-    border-bottom: 0;
-    margin-left: -0.8em;
-    margin-bottom: -0.8em;
 }
 
 
@@ -443,34 +391,18 @@ body {
     .beneficios {
         background: url("https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/bodygold/img/mobile/fundo_3-10secao_MOBILE.webp");
     }
-    .a-body-gold {
-        background: url("https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/bodygold/img/mobile/fundo_4secao_MOBILE.webp");
-    }
     .resultados {
         background: url("https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/bodygold/img/mobile/fundo_5-7-9-11secao_MOBILE.webp");
     }
-    .formula-exclusiva {
-        background: url("https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/bodygold/img/mobile/fundo_6secao_MOBILE.webp");
-    }
-    .diferencial {
-        background: url('https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/bodygold/img/mobile/fundo_8secao_MOBILE.webp');
-    }
     .perguntas-frequentes {
-        background: url('https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/bodygold/img/mobile/fundo_rodape_MOBILE.webp');
+        background: url('https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/bodygold/img/mobile/fundo_rodape_MOBILE2.jpg');
     }
     /* FONTES */
-    .titulo-body {
-        font-size: 1.2em;
-    }
-    li {
-        font-weight: bold;
+    .titulo-ganhador {
         font-size: 14px;
     }
     .titulo-secoes {
         font-size: 24px;
-    }
-    .a-body-gold li {
-        font-weight: normal;
     }
     .titulos-rodape {
         padding-top: 1em;
@@ -482,61 +414,9 @@ body {
         font-size: 13px;
     }
     /* POSIÇÕES DOS ELEMENTOS */
-    body>section.anvisa>div>div>div.col-md-7.text-center.mg-0 {
-        padding: 20px 60px 0px 60px;
-    }
-    body>section.anvisa>div>div>div.col-md-2.mg-0 {
-        text-align: center;
-    }
     .beneficios .col-md-2 {
         padding-left: 5em;
         padding-right: 5em;
-    }
-    .a-body-gold .col-md-5 {
-        padding-left: 2em;
-        padding-right: 2em;
-    }
-    .formula-exclusiva .col-md-3 {
-        padding-left: 2em;
-        padding-right: 2em;
-    }
-    .diferencial .col-md-5,
-    .diferencial .col-md-3 {
-        text-align: center !important;
-    }
-    .diferencial .col-md-5 {
-        padding-right: 4em;
-        padding-left: 4em;
-    }
-    .diferencial .col-md-9 {
-        padding-right: 2em;
-        padding-left: 2em;
-    }
-    .titulo-anvisa {
-        line-height: 1.5em;
-    }
-    /* CARROSSEL RESULTADOS */
-    .swiper-container {
-        width: 100%;
-        height: 350px;
-    }
-    .swiper-container .swiper-slide {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 60px;
-    }
-    .solucao-efetiva .col-md-5 .row,
-    .solucao-efetiva .col-md-3 {
-        text-align: center !important;
-    }
-    .solucao-efetiva .col-md-5,
-    .solucao-efetiva .col-md-9 {
-        padding-left: 1.5em;
-        padding-right: 1.5em;
-    }
-    .depoimentos .swiper-container {
-        height: 715px;
     }
     .kits .col-md-4,
     body>section.kits.background.resultados>div>div.row.pt-1>div {
@@ -578,14 +458,8 @@ body {
         padding: 3em 0;
     }
     /* FONTES */
-    .titulo-body {
-        font-size: 1.43em;
-    }
     .fonte-botao {
         font-size: 20px;
-    }
-    li {
-        font-size: 14px;
     }
     .titulos-rodape {
         font-size: 14px;
@@ -596,9 +470,6 @@ body {
     /* POSIÇÃO DOS ELEMENTOS */
     .beneficios .col-md-2 {
         padding: 0;
-    }
-    .depoimentos .swiper-container {
-        height: 880px;
     }
     .perguntas-frequentes .col-md-5 {
         align-self: flex-end;
@@ -615,8 +486,6 @@ body {
     /* DESATIVA O QUE TÁ NO DESKTOP E MOBILE */
     .mobile,
     .resultados .desktop,
-    body>section.solucao-efetiva.background.resultados>div>div.row.justify-content-center.pt-4>div.col-md-5,
-    .depoimentos .desktop,
     body>section.kits.background.resultados>div>div:nth-child(2),
     .footer2 .desktop {
         display: none;
